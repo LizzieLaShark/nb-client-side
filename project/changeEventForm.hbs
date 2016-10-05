@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8" />
+  <title>Change Event Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="index.css" rel="stylesheet" />
+</head>
+
+
+<form>
+  <div>
+    <label for="name">Edit Event Name:{{eventName}}</label>
+    <input type="text" id="name" name="name" />
+  </div>
+
+  <div>
+    <label for="intro">Edit intro to your event:{{eventIntro}}</label>
+    <input type="text" id="intro" name="intro" />
+  </div>
+
+  <div>
+    <label for="start_time">Edit start time of your event:{{startTime}}</label>
+    <input type="datetime" id="start_time" name="start_time" />
+    <label for="end_time">Edit end time of your event:{{endTime}}</label>
+    <input type="datetime" id="end_time" name="end_time" />
+  </div>
+
+  <input class="submitButton" type="submit" value="Submit"><br>
+
+</form>
